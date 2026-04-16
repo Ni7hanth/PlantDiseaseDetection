@@ -1,0 +1,201 @@
+timestamp,date,month,week,image_name,predicted_class,common_name,pathogen_type,plant_type,confidence_pct,infected_area_pct,severity_level,severity_score,is_healthy,region,days_to_moderate,days_to_severe,accuracy_pct
+2024-01-13 17:00:00,2024-01-13,January 2024,Week 2,leaf_0001.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,83.8,0.0,healthy,0.0,True,Karnataka,,,83.8
+2024-02-22 16:00:00,2024-02-22,February 2024,Week 8,leaf_0002.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,93.6,32.7,moderate,0.26,False,Maharashtra,8,15,93.6
+2024-01-14 14:00:00,2024-01-14,January 2024,Week 2,leaf_0003.jpg,Apple___Apple_scab,Apple Scab,Fungus,Apple,82.2,39.0,moderate,0.316,False,Andhra Pradesh,5,24,82.2
+2024-12-23 12:00:00,2024-12-23,December 2024,Week 52,leaf_0004.jpg,Potato___healthy,Healthy Potato,N/A,Potato,85.1,0.0,healthy,0.0,True,Punjab,,,85.1
+2024-06-21 07:00:00,2024-06-21,June 2024,Week 25,leaf_0005.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,79.9,5.8,severe,0.822,False,Tamil Nadu,12,20,79.9
+2024-07-12 07:00:00,2024-07-12,July 2024,Week 28,leaf_0006.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,89.6,49.8,moderate,0.509,False,Karnataka,6,12,89.6
+2024-05-28 07:00:00,2024-05-28,May 2024,Week 22,leaf_0007.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,96.0,0.0,healthy,0.0,True,Maharashtra,,,96.0
+2024-08-20 16:00:00,2024-08-20,August 2024,Week 34,leaf_0008.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,95.5,9.8,early,0.168,False,Maharashtra,14,22,95.5
+2024-05-05 08:00:00,2024-05-05,May 2024,Week 18,leaf_0009.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,87.7,16.2,severe,0.86,False,Karnataka,10,25,87.7
+2024-01-29 09:00:00,2024-01-29,January 2024,Week 5,leaf_0010.jpg,Potato___healthy,Healthy Potato,N/A,Potato,95.3,0.0,healthy,0.0,True,West Bengal,,,95.3
+2024-02-03 09:00:00,2024-02-03,February 2024,Week 5,leaf_0011.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,97.2,34.0,moderate,0.314,False,Rajasthan,11,22,97.2
+2024-05-15 08:00:00,2024-05-15,May 2024,Week 20,leaf_0012.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,83.2,33.7,early,0.146,False,Uttar Pradesh,10,15,83.2
+2024-03-11 14:00:00,2024-03-11,March 2024,Week 11,leaf_0013.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,88.4,0.0,healthy,0.0,True,Tamil Nadu,,,88.4
+2024-03-19 16:00:00,2024-03-19,March 2024,Week 12,leaf_0014.jpg,Potato___healthy,Healthy Potato,N/A,Potato,81.4,0.0,healthy,0.0,True,Uttar Pradesh,,,81.4
+2024-07-16 12:00:00,2024-07-16,July 2024,Week 29,leaf_0015.jpg,Tomato___Leaf_Mold,Leaf Mold,Fungus,Tomato,90.5,28.1,early,0.138,False,Tamil Nadu,6,22,90.5
+2024-05-16 18:00:00,2024-05-16,May 2024,Week 20,leaf_0016.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,91.5,0.0,healthy,0.0,True,Maharashtra,,,91.5
+2024-03-21 13:00:00,2024-03-21,March 2024,Week 12,leaf_0017.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,78.1,43.3,moderate,0.542,False,Punjab,13,13,78.1
+2024-06-01 19:00:00,2024-06-01,June 2024,Week 22,leaf_0018.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,91.4,0.0,healthy,0.0,True,Karnataka,,,91.4
+2024-03-23 14:00:00,2024-03-23,March 2024,Week 12,leaf_0019.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,98.0,55.3,severe,0.82,False,Rajasthan,5,13,98.0
+2024-06-06 09:00:00,2024-06-06,June 2024,Week 23,leaf_0020.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,79.2,0.0,healthy,0.0,True,Maharashtra,,,79.2
+2024-09-05 19:00:00,2024-09-05,September 2024,Week 36,leaf_0021.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,79.5,45.6,severe,0.608,False,Rajasthan,13,14,79.5
+2024-11-06 12:00:00,2024-11-06,November 2024,Week 45,leaf_0022.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,98.3,55.7,severe,0.86,False,Andhra Pradesh,11,22,98.3
+2024-08-12 20:00:00,2024-08-12,August 2024,Week 33,leaf_0023.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,88.9,0.0,healthy,0.0,True,Maharashtra,,,88.9
+2024-02-02 11:00:00,2024-02-02,February 2024,Week 5,leaf_0024.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,78.4,33.2,moderate,0.252,False,Tamil Nadu,8,13,78.4
+2024-06-18 07:00:00,2024-06-18,June 2024,Week 25,leaf_0025.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,88.8,0.0,healthy,0.0,True,Andhra Pradesh,,,88.8
+2024-04-19 14:00:00,2024-04-19,April 2024,Week 16,leaf_0026.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,80.8,0.0,healthy,0.0,True,Rajasthan,,,80.8
+2024-08-30 18:00:00,2024-08-30,August 2024,Week 35,leaf_0027.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,86.5,5.7,moderate,0.356,False,Uttar Pradesh,12,25,86.5
+2024-12-10 16:00:00,2024-12-10,December 2024,Week 50,leaf_0028.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,98.7,0.0,healthy,0.0,True,Maharashtra,,,98.7
+2024-06-22 18:00:00,2024-06-22,June 2024,Week 25,leaf_0029.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,96.1,14.9,early,0.112,False,Uttar Pradesh,7,16,96.1
+2024-02-08 13:00:00,2024-02-08,February 2024,Week 6,leaf_0030.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,95.0,51.4,early,0.163,False,Tamil Nadu,6,24,95.0
+2024-03-26 12:00:00,2024-03-26,March 2024,Week 13,leaf_0031.jpg,Potato___healthy,Healthy Potato,N/A,Potato,88.2,0.0,healthy,0.0,True,Karnataka,,,88.2
+2024-01-31 08:00:00,2024-01-31,January 2024,Week 5,leaf_0032.jpg,Potato___healthy,Healthy Potato,N/A,Potato,86.0,0.0,healthy,0.0,True,Uttar Pradesh,,,86.0
+2024-08-20 10:00:00,2024-08-20,August 2024,Week 34,leaf_0033.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,86.9,57.4,severe,0.8,False,Rajasthan,7,15,86.9
+2024-01-30 15:00:00,2024-01-30,January 2024,Week 5,leaf_0034.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,93.5,3.7,early,0.013,False,Rajasthan,13,25,93.5
+2024-01-30 14:00:00,2024-01-30,January 2024,Week 5,leaf_0035.jpg,Grape___Black_rot,Grape Black Rot,Fungus,Grape,79.7,11.1,moderate,0.453,False,Karnataka,11,13,79.7
+2024-10-18 09:00:00,2024-10-18,October 2024,Week 42,leaf_0036.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,90.2,0.0,healthy,0.0,True,Tamil Nadu,,,90.2
+2024-08-02 16:00:00,2024-08-02,August 2024,Week 31,leaf_0037.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,90.3,0.0,healthy,0.0,True,West Bengal,,,90.3
+2024-04-14 16:00:00,2024-04-14,April 2024,Week 15,leaf_0038.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,93.0,0.0,healthy,0.0,True,Karnataka,,,93.0
+2024-03-08 16:00:00,2024-03-08,March 2024,Week 10,leaf_0039.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,91.6,27.4,severe,0.971,False,Tamil Nadu,12,21,91.6
+2024-02-21 07:00:00,2024-02-21,February 2024,Week 8,leaf_0040.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,89.3,0.0,healthy,0.0,True,Andhra Pradesh,,,89.3
+2024-06-27 20:00:00,2024-06-27,June 2024,Week 26,leaf_0041.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,79.4,14.7,early,0.11,False,Andhra Pradesh,14,24,79.4
+2024-01-05 16:00:00,2024-01-05,January 2024,Week 1,leaf_0042.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,95.2,0.0,healthy,0.0,True,Andhra Pradesh,,,95.2
+2024-02-23 20:00:00,2024-02-23,February 2024,Week 8,leaf_0043.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,80.8,0.0,healthy,0.0,True,Maharashtra,,,80.8
+2024-10-10 08:00:00,2024-10-10,October 2024,Week 41,leaf_0044.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,83.7,0.0,healthy,0.0,True,Karnataka,,,83.7
+2024-04-14 16:00:00,2024-04-14,April 2024,Week 15,leaf_0045.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,91.3,0.0,healthy,0.0,True,Andhra Pradesh,,,91.3
+2024-05-08 20:00:00,2024-05-08,May 2024,Week 19,leaf_0046.jpg,Apple___Apple_scab,Apple Scab,Fungus,Apple,97.1,3.0,moderate,0.499,False,Tamil Nadu,5,17,97.1
+2024-11-22 10:00:00,2024-11-22,November 2024,Week 47,leaf_0047.jpg,Potato___healthy,Healthy Potato,N/A,Potato,81.4,0.0,healthy,0.0,True,Rajasthan,,,81.4
+2024-08-06 14:00:00,2024-08-06,August 2024,Week 32,leaf_0048.jpg,Grape___Black_rot,Grape Black Rot,Fungus,Grape,78.2,4.5,severe,0.957,False,Tamil Nadu,10,21,78.2
+2024-08-08 08:00:00,2024-08-08,August 2024,Week 32,leaf_0049.jpg,Grape___Black_rot,Grape Black Rot,Fungus,Grape,78.9,21.9,severe,0.987,False,Tamil Nadu,10,15,78.9
+2024-12-07 07:00:00,2024-12-07,December 2024,Week 49,leaf_0050.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,85.4,0.0,healthy,0.0,True,Uttar Pradesh,,,85.4
+2024-03-20 20:00:00,2024-03-20,March 2024,Week 12,leaf_0051.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,97.5,0.0,healthy,0.0,True,Punjab,,,97.5
+2024-03-31 20:00:00,2024-03-31,March 2024,Week 13,leaf_0052.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,86.7,0.0,healthy,0.0,True,Punjab,,,86.7
+2024-06-19 18:00:00,2024-06-19,June 2024,Week 25,leaf_0053.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,97.5,0.0,healthy,0.0,True,Karnataka,,,97.5
+2024-12-25 07:00:00,2024-12-25,December 2024,Week 52,leaf_0054.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,86.0,2.3,moderate,0.31,False,Rajasthan,10,16,86.0
+2024-04-26 09:00:00,2024-04-26,April 2024,Week 17,leaf_0055.jpg,Potato___healthy,Healthy Potato,N/A,Potato,78.5,0.0,healthy,0.0,True,Karnataka,,,78.5
+2024-05-22 19:00:00,2024-05-22,May 2024,Week 21,leaf_0056.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,79.5,46.4,early,0.127,False,West Bengal,5,13,79.5
+2024-05-13 08:00:00,2024-05-13,May 2024,Week 20,leaf_0057.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,90.2,0.0,healthy,0.0,True,Andhra Pradesh,,,90.2
+2024-11-01 12:00:00,2024-11-01,November 2024,Week 44,leaf_0058.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,85.3,47.2,moderate,0.545,False,Maharashtra,11,21,85.3
+2024-01-23 17:00:00,2024-01-23,January 2024,Week 4,leaf_0059.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,87.2,31.2,severe,0.859,False,Karnataka,10,18,87.2
+2024-12-06 20:00:00,2024-12-06,December 2024,Week 49,leaf_0060.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,84.9,18.8,severe,0.874,False,Andhra Pradesh,13,16,84.9
+2024-06-16 12:00:00,2024-06-16,June 2024,Week 24,leaf_0061.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,92.6,0.0,healthy,0.0,True,Punjab,,,92.6
+2024-12-06 12:00:00,2024-12-06,December 2024,Week 49,leaf_0062.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,92.2,54.2,moderate,0.34,False,Tamil Nadu,9,16,92.2
+2024-10-23 15:00:00,2024-10-23,October 2024,Week 43,leaf_0063.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,91.7,27.9,moderate,0.314,False,Rajasthan,7,22,91.7
+2024-09-20 16:00:00,2024-09-20,September 2024,Week 38,leaf_0064.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,91.3,20.1,severe,0.888,False,Andhra Pradesh,8,24,91.3
+2024-01-13 06:00:00,2024-01-13,January 2024,Week 2,leaf_0065.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,83.1,28.5,severe,0.583,False,Uttar Pradesh,14,15,83.1
+2024-07-15 13:00:00,2024-07-15,July 2024,Week 29,leaf_0066.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,86.4,0.0,healthy,0.0,True,Punjab,,,86.4
+2024-01-03 20:00:00,2024-01-03,January 2024,Week 1,leaf_0067.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,93.8,0.0,healthy,0.0,True,Maharashtra,,,93.8
+2024-04-22 08:00:00,2024-04-22,April 2024,Week 17,leaf_0068.jpg,Potato___healthy,Healthy Potato,N/A,Potato,94.9,0.0,healthy,0.0,True,Rajasthan,,,94.9
+2024-05-07 20:00:00,2024-05-07,May 2024,Week 19,leaf_0069.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,95.8,27.4,severe,0.85,False,West Bengal,12,21,95.8
+2024-09-15 12:00:00,2024-09-15,September 2024,Week 37,leaf_0070.jpg,Potato___healthy,Healthy Potato,N/A,Potato,95.4,0.0,healthy,0.0,True,Rajasthan,,,95.4
+2024-08-31 13:00:00,2024-08-31,August 2024,Week 35,leaf_0071.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,83.4,0.0,healthy,0.0,True,Karnataka,,,83.4
+2024-05-21 18:00:00,2024-05-21,May 2024,Week 21,leaf_0072.jpg,Potato___healthy,Healthy Potato,N/A,Potato,94.3,0.0,healthy,0.0,True,Rajasthan,,,94.3
+2024-05-20 13:00:00,2024-05-20,May 2024,Week 21,leaf_0073.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,79.6,0.0,healthy,0.0,True,Andhra Pradesh,,,79.6
+2024-06-20 11:00:00,2024-06-20,June 2024,Week 25,leaf_0074.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,96.8,4.8,early,0.096,False,Punjab,8,13,96.8
+2024-06-18 14:00:00,2024-06-18,June 2024,Week 25,leaf_0075.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,87.8,3.7,severe,0.725,False,Tamil Nadu,14,18,87.8
+2024-06-29 10:00:00,2024-06-29,June 2024,Week 26,leaf_0076.jpg,Apple___Apple_scab,Apple Scab,Fungus,Apple,93.8,51.2,severe,0.739,False,Karnataka,12,15,93.8
+2024-09-05 06:00:00,2024-09-05,September 2024,Week 36,leaf_0077.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,86.2,40.1,severe,0.876,False,Rajasthan,7,21,86.2
+2024-07-20 15:00:00,2024-07-20,July 2024,Week 29,leaf_0078.jpg,Grape___Black_rot,Grape Black Rot,Fungus,Grape,89.9,1.6,moderate,0.291,False,Rajasthan,7,12,89.9
+2024-06-16 09:00:00,2024-06-16,June 2024,Week 24,leaf_0079.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,87.5,20.3,severe,0.675,False,Uttar Pradesh,9,25,87.5
+2024-01-10 17:00:00,2024-01-10,January 2024,Week 2,leaf_0080.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,89.3,60.0,early,0.163,False,Tamil Nadu,5,15,89.3
+2024-01-11 15:00:00,2024-01-11,January 2024,Week 2,leaf_0081.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,81.2,7.6,moderate,0.419,False,Karnataka,12,23,81.2
+2024-07-07 08:00:00,2024-07-07,July 2024,Week 27,leaf_0082.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,90.7,57.8,moderate,0.483,False,Punjab,9,13,90.7
+2024-06-08 15:00:00,2024-06-08,June 2024,Week 23,leaf_0083.jpg,Tomato___Leaf_Mold,Leaf Mold,Fungus,Tomato,92.2,57.5,early,0.179,False,Maharashtra,14,23,92.2
+2024-05-04 07:00:00,2024-05-04,May 2024,Week 18,leaf_0084.jpg,Potato___healthy,Healthy Potato,N/A,Potato,92.6,0.0,healthy,0.0,True,Andhra Pradesh,,,92.6
+2024-11-03 18:00:00,2024-11-03,November 2024,Week 44,leaf_0085.jpg,Potato___healthy,Healthy Potato,N/A,Potato,80.5,0.0,healthy,0.0,True,Tamil Nadu,,,80.5
+2024-08-07 16:00:00,2024-08-07,August 2024,Week 32,leaf_0086.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,85.8,30.4,early,0.212,False,Rajasthan,6,18,85.8
+2024-11-21 20:00:00,2024-11-21,November 2024,Week 47,leaf_0087.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,95.4,0.0,healthy,0.0,True,Punjab,,,95.4
+2024-09-24 16:00:00,2024-09-24,September 2024,Week 39,leaf_0088.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,83.7,48.5,moderate,0.395,False,Uttar Pradesh,14,16,83.7
+2024-05-05 19:00:00,2024-05-05,May 2024,Week 18,leaf_0089.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,97.6,16.7,moderate,0.475,False,Uttar Pradesh,10,12,97.6
+2024-06-15 08:00:00,2024-06-15,June 2024,Week 24,leaf_0090.jpg,Apple___Apple_scab,Apple Scab,Fungus,Apple,88.2,21.3,early,0.07,False,Andhra Pradesh,13,12,88.2
+2024-04-07 07:00:00,2024-04-07,April 2024,Week 14,leaf_0091.jpg,Apple___Apple_scab,Apple Scab,Fungus,Apple,83.1,24.4,moderate,0.322,False,Rajasthan,12,19,83.1
+2024-02-17 10:00:00,2024-02-17,February 2024,Week 7,leaf_0092.jpg,Potato___healthy,Healthy Potato,N/A,Potato,82.7,0.0,healthy,0.0,True,Karnataka,,,82.7
+2024-10-24 11:00:00,2024-10-24,October 2024,Week 43,leaf_0093.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,87.9,31.9,moderate,0.474,False,West Bengal,10,23,87.9
+2024-06-05 10:00:00,2024-06-05,June 2024,Week 23,leaf_0094.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,82.8,43.3,early,0.186,False,Punjab,8,15,82.8
+2024-05-21 17:00:00,2024-05-21,May 2024,Week 21,leaf_0095.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,90.4,0.0,healthy,0.0,True,Andhra Pradesh,,,90.4
+2024-04-09 10:00:00,2024-04-09,April 2024,Week 15,leaf_0096.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,82.8,0.0,healthy,0.0,True,Punjab,,,82.8
+2024-12-28 14:00:00,2024-12-28,December 2024,Week 52,leaf_0097.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,80.7,2.7,early,0.073,False,Punjab,12,13,80.7
+2024-10-20 10:00:00,2024-10-20,October 2024,Week 42,leaf_0098.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,87.9,0.0,healthy,0.0,True,Rajasthan,,,87.9
+2024-01-27 10:00:00,2024-01-27,January 2024,Week 4,leaf_0099.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,97.8,28.7,severe,0.73,False,Maharashtra,14,22,97.8
+2024-03-18 08:00:00,2024-03-18,March 2024,Week 12,leaf_0100.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,95.0,0.0,healthy,0.0,True,Andhra Pradesh,,,95.0
+2024-05-07 07:00:00,2024-05-07,May 2024,Week 19,leaf_0101.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,89.7,25.0,moderate,0.436,False,Uttar Pradesh,12,19,89.7
+2024-10-28 12:00:00,2024-10-28,October 2024,Week 44,leaf_0102.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,84.4,37.3,moderate,0.472,False,Karnataka,8,16,84.4
+2024-03-21 09:00:00,2024-03-21,March 2024,Week 12,leaf_0103.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,81.7,0.0,healthy,0.0,True,Maharashtra,,,81.7
+2024-07-28 13:00:00,2024-07-28,July 2024,Week 30,leaf_0104.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,92.5,28.2,early,0.072,False,Andhra Pradesh,12,13,92.5
+2024-05-15 18:00:00,2024-05-15,May 2024,Week 20,leaf_0105.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,94.6,0.0,healthy,0.0,True,Karnataka,,,94.6
+2024-10-05 09:00:00,2024-10-05,October 2024,Week 40,leaf_0106.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,91.6,54.5,severe,0.582,False,Punjab,9,21,91.6
+2024-10-18 20:00:00,2024-10-18,October 2024,Week 42,leaf_0107.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,84.1,0.0,healthy,0.0,True,Maharashtra,,,84.1
+2024-06-04 17:00:00,2024-06-04,June 2024,Week 23,leaf_0108.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,86.5,16.3,moderate,0.381,False,Tamil Nadu,11,23,86.5
+2024-05-08 06:00:00,2024-05-08,May 2024,Week 19,leaf_0109.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,79.9,57.7,severe,0.809,False,Tamil Nadu,9,21,79.9
+2024-03-30 13:00:00,2024-03-30,March 2024,Week 13,leaf_0110.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,88.9,26.5,early,0.249,False,Uttar Pradesh,12,13,88.9
+2024-07-28 11:00:00,2024-07-28,July 2024,Week 30,leaf_0111.jpg,Apple___Apple_scab,Apple Scab,Fungus,Apple,84.7,6.3,early,0.103,False,Rajasthan,9,22,84.7
+2024-10-08 06:00:00,2024-10-08,October 2024,Week 41,leaf_0112.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,87.6,0.0,healthy,0.0,True,West Bengal,,,87.6
+2024-02-29 18:00:00,2024-02-29,February 2024,Week 9,leaf_0113.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,86.5,30.9,severe,0.846,False,Rajasthan,11,12,86.5
+2024-07-04 15:00:00,2024-07-04,July 2024,Week 27,leaf_0114.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,93.9,37.5,severe,0.642,False,Punjab,9,19,93.9
+2024-09-05 07:00:00,2024-09-05,September 2024,Week 36,leaf_0115.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,78.6,0.0,healthy,0.0,True,Karnataka,,,78.6
+2024-06-08 14:00:00,2024-06-08,June 2024,Week 23,leaf_0116.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,78.3,0.0,healthy,0.0,True,Uttar Pradesh,,,78.3
+2024-02-28 13:00:00,2024-02-28,February 2024,Week 9,leaf_0117.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,97.9,38.9,early,0.233,False,Andhra Pradesh,13,23,97.9
+2024-09-04 13:00:00,2024-09-04,September 2024,Week 36,leaf_0118.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,83.1,33.1,early,0.23,False,Punjab,6,16,83.1
+2024-07-31 11:00:00,2024-07-31,July 2024,Week 31,leaf_0119.jpg,Potato___healthy,Healthy Potato,N/A,Potato,97.6,0.0,healthy,0.0,True,Andhra Pradesh,,,97.6
+2024-05-24 17:00:00,2024-05-24,May 2024,Week 21,leaf_0120.jpg,Potato___healthy,Healthy Potato,N/A,Potato,84.3,0.0,healthy,0.0,True,Rajasthan,,,84.3
+2024-08-16 14:00:00,2024-08-16,August 2024,Week 33,leaf_0121.jpg,Potato___healthy,Healthy Potato,N/A,Potato,88.2,0.0,healthy,0.0,True,West Bengal,,,88.2
+2024-10-05 12:00:00,2024-10-05,October 2024,Week 40,leaf_0122.jpg,Grape___Black_rot,Grape Black Rot,Fungus,Grape,87.6,19.3,early,0.174,False,Uttar Pradesh,8,25,87.6
+2024-01-23 11:00:00,2024-01-23,January 2024,Week 4,leaf_0123.jpg,Potato___healthy,Healthy Potato,N/A,Potato,93.6,0.0,healthy,0.0,True,Uttar Pradesh,,,93.6
+2024-12-05 18:00:00,2024-12-05,December 2024,Week 49,leaf_0124.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,95.2,58.8,moderate,0.261,False,West Bengal,6,25,95.2
+2024-02-21 14:00:00,2024-02-21,February 2024,Week 8,leaf_0125.jpg,Potato___healthy,Healthy Potato,N/A,Potato,97.1,0.0,healthy,0.0,True,Tamil Nadu,,,97.1
+2024-07-28 19:00:00,2024-07-28,July 2024,Week 30,leaf_0126.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,91.8,0.0,healthy,0.0,True,Punjab,,,91.8
+2024-05-15 11:00:00,2024-05-15,May 2024,Week 20,leaf_0127.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,91.1,23.8,early,0.082,False,Uttar Pradesh,10,22,91.1
+2024-09-06 19:00:00,2024-09-06,September 2024,Week 36,leaf_0128.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,89.4,0.0,healthy,0.0,True,Maharashtra,,,89.4
+2024-12-16 20:00:00,2024-12-16,December 2024,Week 51,leaf_0129.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,84.0,13.6,early,0.245,False,Maharashtra,12,14,84.0
+2024-01-15 06:00:00,2024-01-15,January 2024,Week 3,leaf_0130.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,84.8,0.0,healthy,0.0,True,Tamil Nadu,,,84.8
+2024-07-10 12:00:00,2024-07-10,July 2024,Week 28,leaf_0131.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,81.1,31.9,moderate,0.488,False,Punjab,7,13,81.1
+2024-07-14 15:00:00,2024-07-14,July 2024,Week 28,leaf_0132.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,92.3,0.0,healthy,0.0,True,Rajasthan,,,92.3
+2024-03-14 09:00:00,2024-03-14,March 2024,Week 11,leaf_0133.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,87.7,0.0,healthy,0.0,True,Andhra Pradesh,,,87.7
+2024-12-07 06:00:00,2024-12-07,December 2024,Week 49,leaf_0134.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,96.9,27.9,early,0.137,False,Maharashtra,12,17,96.9
+2024-06-02 16:00:00,2024-06-02,June 2024,Week 22,leaf_0135.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,98.2,0.0,healthy,0.0,True,Andhra Pradesh,,,98.2
+2024-06-03 09:00:00,2024-06-03,June 2024,Week 23,leaf_0136.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,99.0,51.2,early,0.095,False,West Bengal,14,16,99.0
+2024-05-31 06:00:00,2024-05-31,May 2024,Week 22,leaf_0137.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,98.5,0.0,healthy,0.0,True,Uttar Pradesh,,,98.5
+2024-10-16 19:00:00,2024-10-16,October 2024,Week 42,leaf_0138.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,92.4,44.7,early,0.152,False,Rajasthan,9,24,92.4
+2024-11-06 18:00:00,2024-11-06,November 2024,Week 45,leaf_0139.jpg,Potato___healthy,Healthy Potato,N/A,Potato,85.4,0.0,healthy,0.0,True,Karnataka,,,85.4
+2024-12-13 18:00:00,2024-12-13,December 2024,Week 50,leaf_0140.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,93.1,0.0,healthy,0.0,True,Punjab,,,93.1
+2024-11-17 16:00:00,2024-11-17,November 2024,Week 46,leaf_0141.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,78.8,0.0,healthy,0.0,True,Rajasthan,,,78.8
+2024-07-05 17:00:00,2024-07-05,July 2024,Week 27,leaf_0142.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,80.8,54.6,early,0.104,False,Karnataka,7,24,80.8
+2024-07-06 14:00:00,2024-07-06,July 2024,Week 27,leaf_0143.jpg,Grape___Black_rot,Grape Black Rot,Fungus,Grape,88.5,16.4,early,0.229,False,Rajasthan,9,23,88.5
+2024-02-28 13:00:00,2024-02-28,February 2024,Week 9,leaf_0144.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,98.2,0.0,healthy,0.0,True,Punjab,,,98.2
+2024-04-25 19:00:00,2024-04-25,April 2024,Week 17,leaf_0145.jpg,Potato___healthy,Healthy Potato,N/A,Potato,92.2,0.0,healthy,0.0,True,Uttar Pradesh,,,92.2
+2024-10-12 11:00:00,2024-10-12,October 2024,Week 41,leaf_0146.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,79.9,0.0,healthy,0.0,True,Uttar Pradesh,,,79.9
+2024-10-01 07:00:00,2024-10-01,October 2024,Week 40,leaf_0147.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,87.6,40.4,moderate,0.425,False,West Bengal,6,22,87.6
+2024-01-13 15:00:00,2024-01-13,January 2024,Week 2,leaf_0148.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,96.6,33.7,severe,0.65,False,Maharashtra,12,23,96.6
+2024-07-28 07:00:00,2024-07-28,July 2024,Week 30,leaf_0149.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,80.9,56.8,early,0.123,False,Maharashtra,8,20,80.9
+2024-08-20 11:00:00,2024-08-20,August 2024,Week 34,leaf_0150.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,92.1,44.6,severe,0.739,False,Punjab,11,22,92.1
+2024-09-07 15:00:00,2024-09-07,September 2024,Week 36,leaf_0151.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,86.6,57.1,early,0.093,False,Rajasthan,12,15,86.6
+2024-02-20 16:00:00,2024-02-20,February 2024,Week 8,leaf_0152.jpg,Potato___healthy,Healthy Potato,N/A,Potato,85.7,0.0,healthy,0.0,True,West Bengal,,,85.7
+2024-05-21 09:00:00,2024-05-21,May 2024,Week 21,leaf_0153.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,98.3,56.9,severe,0.591,False,Karnataka,14,12,98.3
+2024-06-19 09:00:00,2024-06-19,June 2024,Week 25,leaf_0154.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,98.8,47.2,early,0.207,False,Karnataka,14,15,98.8
+2024-04-29 11:00:00,2024-04-29,April 2024,Week 18,leaf_0155.jpg,Potato___healthy,Healthy Potato,N/A,Potato,94.3,0.0,healthy,0.0,True,Tamil Nadu,,,94.3
+2024-03-15 08:00:00,2024-03-15,March 2024,Week 11,leaf_0156.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,89.3,47.9,early,0.217,False,Punjab,5,17,89.3
+2024-05-01 15:00:00,2024-05-01,May 2024,Week 18,leaf_0157.jpg,Potato___healthy,Healthy Potato,N/A,Potato,84.8,0.0,healthy,0.0,True,Punjab,,,84.8
+2024-03-05 17:00:00,2024-03-05,March 2024,Week 10,leaf_0158.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,86.8,6.8,early,0.112,False,West Bengal,13,21,86.8
+2024-09-14 09:00:00,2024-09-14,September 2024,Week 37,leaf_0159.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,97.9,2.6,severe,0.94,False,Andhra Pradesh,12,22,97.9
+2024-02-01 13:00:00,2024-02-01,February 2024,Week 5,leaf_0160.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,95.8,0.0,healthy,0.0,True,Uttar Pradesh,,,95.8
+2024-09-08 17:00:00,2024-09-08,September 2024,Week 36,leaf_0161.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,97.1,0.0,healthy,0.0,True,Maharashtra,,,97.1
+2024-06-13 15:00:00,2024-06-13,June 2024,Week 24,leaf_0162.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,81.1,0.0,healthy,0.0,True,Punjab,,,81.1
+2024-11-20 15:00:00,2024-11-20,November 2024,Week 47,leaf_0163.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,89.5,19.5,severe,0.789,False,Rajasthan,13,21,89.5
+2024-12-25 07:00:00,2024-12-25,December 2024,Week 52,leaf_0164.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,95.9,39.1,severe,0.874,False,Karnataka,11,19,95.9
+2024-07-30 11:00:00,2024-07-30,July 2024,Week 31,leaf_0165.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,95.4,0.0,healthy,0.0,True,Uttar Pradesh,,,95.4
+2024-02-18 11:00:00,2024-02-18,February 2024,Week 7,leaf_0166.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,87.0,39.9,early,0.038,False,Rajasthan,6,13,87.0
+2024-02-17 12:00:00,2024-02-17,February 2024,Week 7,leaf_0167.jpg,Potato___healthy,Healthy Potato,N/A,Potato,80.0,0.0,healthy,0.0,True,West Bengal,,,80.0
+2024-10-11 06:00:00,2024-10-11,October 2024,Week 41,leaf_0168.jpg,Potato___healthy,Healthy Potato,N/A,Potato,90.3,0.0,healthy,0.0,True,West Bengal,,,90.3
+2024-07-29 11:00:00,2024-07-29,July 2024,Week 31,leaf_0169.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,96.3,0.0,healthy,0.0,True,Uttar Pradesh,,,96.3
+2024-01-27 10:00:00,2024-01-27,January 2024,Week 4,leaf_0170.jpg,Potato___healthy,Healthy Potato,N/A,Potato,90.6,0.0,healthy,0.0,True,West Bengal,,,90.6
+2024-09-16 09:00:00,2024-09-16,September 2024,Week 38,leaf_0171.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,81.2,28.9,severe,0.708,False,West Bengal,6,24,81.2
+2024-04-25 18:00:00,2024-04-25,April 2024,Week 17,leaf_0172.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,87.0,33.7,severe,0.83,False,Tamil Nadu,14,22,87.0
+2024-05-16 06:00:00,2024-05-16,May 2024,Week 20,leaf_0173.jpg,Potato___healthy,Healthy Potato,N/A,Potato,81.8,0.0,healthy,0.0,True,Andhra Pradesh,,,81.8
+2024-06-28 06:00:00,2024-06-28,June 2024,Week 26,leaf_0174.jpg,Corn_(maize)___healthy,Healthy Corn,N/A,Corn,81.8,0.0,healthy,0.0,True,Punjab,,,81.8
+2024-07-24 07:00:00,2024-07-24,July 2024,Week 30,leaf_0175.jpg,Tomato___Leaf_Mold,Leaf Mold,Fungus,Tomato,81.0,38.0,early,0.187,False,Karnataka,11,18,81.0
+2024-03-21 11:00:00,2024-03-21,March 2024,Week 12,leaf_0176.jpg,Corn_(maize)___Common_rust_,Common Rust,Fungus,Corn,84.5,19.5,severe,0.818,False,Tamil Nadu,7,14,84.5
+2024-01-26 16:00:00,2024-01-26,January 2024,Week 4,leaf_0177.jpg,Potato___healthy,Healthy Potato,N/A,Potato,79.7,0.0,healthy,0.0,True,Rajasthan,,,79.7
+2024-09-05 15:00:00,2024-09-05,September 2024,Week 36,leaf_0178.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,87.3,0.0,healthy,0.0,True,Andhra Pradesh,,,87.3
+2024-09-19 07:00:00,2024-09-19,September 2024,Week 38,leaf_0179.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,85.2,6.7,moderate,0.428,False,Andhra Pradesh,5,15,85.2
+2024-11-02 06:00:00,2024-11-02,November 2024,Week 44,leaf_0180.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,78.2,18.1,early,0.034,False,Andhra Pradesh,9,17,78.2
+2024-09-11 17:00:00,2024-09-11,September 2024,Week 37,leaf_0181.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,87.0,7.8,moderate,0.319,False,West Bengal,6,18,87.0
+2024-01-22 12:00:00,2024-01-22,January 2024,Week 4,leaf_0182.jpg,Potato___healthy,Healthy Potato,N/A,Potato,78.4,0.0,healthy,0.0,True,Maharashtra,,,78.4
+2024-10-21 12:00:00,2024-10-21,October 2024,Week 43,leaf_0183.jpg,Potato___healthy,Healthy Potato,N/A,Potato,90.0,0.0,healthy,0.0,True,Uttar Pradesh,,,90.0
+2024-07-26 06:00:00,2024-07-26,July 2024,Week 30,leaf_0184.jpg,Potato___Late_blight,Potato Late Blight,Oomycete,Potato,98.3,10.3,severe,0.757,False,West Bengal,6,18,98.3
+2024-05-04 12:00:00,2024-05-04,May 2024,Week 18,leaf_0185.jpg,Potato___healthy,Healthy Potato,N/A,Potato,90.4,0.0,healthy,0.0,True,Maharashtra,,,90.4
+2024-06-07 17:00:00,2024-06-07,June 2024,Week 23,leaf_0186.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,85.1,20.0,early,0.128,False,Maharashtra,13,20,85.1
+2024-06-27 11:00:00,2024-06-27,June 2024,Week 26,leaf_0187.jpg,Tomato___Bacterial_spot,Bacterial Spot,Bacteria,Tomato,93.3,49.1,severe,0.656,False,Punjab,9,15,93.3
+2024-03-19 18:00:00,2024-03-19,March 2024,Week 12,leaf_0188.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,93.9,4.5,severe,0.833,False,Rajasthan,14,24,93.9
+2024-12-14 20:00:00,2024-12-14,December 2024,Week 50,leaf_0189.jpg,Tomato___Leaf_Mold,Leaf Mold,Fungus,Tomato,96.5,38.6,severe,0.695,False,West Bengal,7,19,96.5
+2024-08-14 16:00:00,2024-08-14,August 2024,Week 33,leaf_0190.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,84.4,16.5,early,0.127,False,Andhra Pradesh,12,19,84.4
+2024-07-07 19:00:00,2024-07-07,July 2024,Week 27,leaf_0191.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,84.0,38.7,severe,0.591,False,Uttar Pradesh,12,21,84.0
+2024-01-22 13:00:00,2024-01-22,January 2024,Week 4,leaf_0192.jpg,Grape___Black_rot,Grape Black Rot,Fungus,Grape,97.1,34.3,early,0.151,False,Punjab,5,19,97.1
+2024-06-24 17:00:00,2024-06-24,June 2024,Week 26,leaf_0193.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,79.8,38.8,early,0.177,False,Rajasthan,13,20,79.8
+2024-07-05 11:00:00,2024-07-05,July 2024,Week 27,leaf_0194.jpg,Tomato___healthy,Healthy Tomato,N/A,Tomato,97.3,0.0,healthy,0.0,True,Uttar Pradesh,,,97.3
+2024-06-22 16:00:00,2024-06-22,June 2024,Week 25,leaf_0195.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,90.6,47.4,moderate,0.27,False,Maharashtra,13,22,90.6
+2024-05-09 17:00:00,2024-05-09,May 2024,Week 19,leaf_0196.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,95.9,57.9,moderate,0.295,False,Maharashtra,14,22,95.9
+2024-06-28 10:00:00,2024-06-28,June 2024,Week 26,leaf_0197.jpg,Tomato___Late_blight,Tomato Late Blight,Oomycete,Tomato,98.3,41.9,early,0.149,False,Maharashtra,9,20,98.3
+2024-06-17 19:00:00,2024-06-17,June 2024,Week 25,leaf_0198.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,80.7,42.2,severe,0.999,False,Maharashtra,11,20,80.7
+2024-07-04 10:00:00,2024-07-04,July 2024,Week 27,leaf_0199.jpg,Potato___Early_blight,Potato Early Blight,Fungus,Potato,81.8,12.9,severe,0.769,False,Karnataka,7,14,81.8
+2024-02-21 14:00:00,2024-02-21,February 2024,Week 8,leaf_0200.jpg,Tomato___Early_blight,Tomato Early Blight,Fungus,Tomato,94.2,50.1,severe,0.567,False,West Bengal,14,14,94.2

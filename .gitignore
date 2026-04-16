@@ -1,0 +1,17 @@
+# Dataset
+Dataset/
+plantvillage dataset/
+
+# Model
+models/
+
+# Outputs
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Venv
+venv/
