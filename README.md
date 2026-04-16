@@ -1,4 +1,4 @@
-# 🌿 Plant Disease Detection System
+# Plant Disease Detection System
 ### Final Year Project — Complete Technical Report
 
 ---
