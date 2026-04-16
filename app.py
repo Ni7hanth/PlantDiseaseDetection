@@ -47,21 +47,21 @@ st.markdown("""
 .severity-severe   { background:#f8d7da; border-left:5px solid #dc3545; padding:12px; border-radius:6px; }
 .severity-healthy  { background:#d4edda; border-left:5px solid #28a745; padding:12px; border-radius:6px; }
 .treatment-card    { background:#f0f7ff; border:1px solid #bee3f8; border-radius:8px; padding:14px; margin:6px 0; }
-.metric-card       { background:#ffffff; border-radius:10px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,0.1); text-align:center; }
+.metric-card { background:#1a5c2a; border-radius:10px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,0.1); text-align:center; color:white; }
 </style>
 """, unsafe_allow_html=True)
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 st.sidebar.markdown("## 🌿 Navigation")
 page = st.sidebar.radio("Select Page", [
-    "🏠 Home",
-    "🔍 Disease Detection",
-    "📊 Analytics Dashboard",
-    "ℹ️ About",
+    "Home",
+    "Disease Detection",
+    "Analytics Dashboard",
+    "About",
 ])
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("### 📌 Quick Stats")
+st.sidebar.markdown("### Quick Stats")
 log_path = "outputs/predictions_log.csv"
 if os.path.exists(log_path):
     df_log = pd.read_csv(log_path)
@@ -90,7 +90,7 @@ def load_predictor():
 
 
 # ── HOME PAGE ─────────────────────────────────────────────────────────────────
-if page == "🏠 Home":
+if page == "Home":
     st.markdown("""
     <div class="main-header">
         <h1>🌿 Plant Disease Detection System</h1>
@@ -113,30 +113,30 @@ if page == "🏠 Home":
                     unsafe_allow_html=True)
 
     st.markdown("---")
-    st.markdown("### 🚀 Key Features")
+    st.markdown("### Key Features")
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("""
-        **🔬 Core AI Features**
+        **Core AI Features**
         - MobileNetV2 Transfer Learning model
         - Real-time disease classification (38 classes)
         - Top-3 prediction confidence display
         - Grad-CAM visual explanation heatmap
 
-        **📈 Novelty Feature**
+        **Novelty Feature**
         - Disease severity: Early / Moderate / Severe
         - Progression timeline: days to next stage
         - Urgency-based action alerts
         """)
     with col2:
         st.markdown("""
-        **💊 Recommendation Engine**
+        **Recommendation Engine**
         - Organic treatment options
         - Chemical treatment with dosage
         - Preventive measures
         - Crop-specific farming tips
 
-        **📊 Analytics**
+        **Analytics**
         - CSV export for Tableau dashboard
         - Disease distribution analytics
         - Severity trend tracking
@@ -147,8 +147,8 @@ if page == "🏠 Home":
 
 
 # ── DETECTION PAGE ────────────────────────────────────────────────────────────
-elif page == "🔍 Disease Detection":
-    st.markdown("## 🔍 Disease Detection & Analysis")
+elif page == "Disease Detection":
+    st.markdown("## Disease Detection & Analysis")
     st.markdown("Upload a clear photo of a plant leaf for instant AI diagnosis.")
 
     uploaded_file = st.file_uploader(
@@ -208,10 +208,10 @@ elif page == "🔍 Disease Detection":
         if not result["is_healthy"]:
             st.markdown("---")
             tab1, tab2, tab3, tab4 = st.tabs([
-                "🗓️ Progression Forecast",
-                "💊 Treatment Plan",
-                "🔬 AI Explanation",
-                "📊 Top-3 Predictions",
+                "Progression Forecast",
+                "Treatment Plan",
+                "AI Explanation",
+                "Top-3 Predictions",
             ])
 
             with tab1:
@@ -229,22 +229,22 @@ elif page == "🔍 Disease Detection":
 
             with tab2:
                 t = result["treatment"]
-                st.markdown("#### 🌿 Organic Treatment")
+                st.markdown("#### Organic Treatment")
                 for item in t.get("organic", []):
                     st.markdown(f'<div class="treatment-card">🌱 {item}</div>',
                                 unsafe_allow_html=True)
 
-                st.markdown("#### 🧪 Chemical Treatment")
+                st.markdown("#### Chemical Treatment")
                 for item in t.get("chemical", []):
                     st.markdown(f'<div class="treatment-card">⚗️ {item}</div>',
                                 unsafe_allow_html=True)
 
-                st.markdown("#### 🛡️ Preventive Measures")
+                st.markdown("#### Preventive Measures")
                 for item in t.get("preventive", []):
                     st.markdown(f'<div class="treatment-card">🔒 {item}</div>',
                                 unsafe_allow_html=True)
 
-                st.markdown("#### 💡 Farming Tips")
+                st.markdown("#### Farming Tips")
                 for tip in result.get("farming_tips", []):
                     st.info(tip)
 
@@ -295,8 +295,8 @@ elif page == "🔍 Disease Detection":
 
 
 # ── ANALYTICS DASHBOARD ───────────────────────────────────────────────────────
-elif page == "📊 Analytics Dashboard":
-    st.markdown("## 📊 Detection Analytics Dashboard")
+elif page == "Analytics Dashboard":
+    st.markdown("## Detection Analytics Dashboard")
 
     if not os.path.exists(log_path):
         st.info("No predictions yet. Run some detections first to see analytics.")
@@ -341,8 +341,8 @@ elif page == "📊 Analytics Dashboard":
 
 
 # ── ABOUT PAGE ────────────────────────────────────────────────────────────────
-elif page == "ℹ️ About":
-    st.markdown("## ℹ️ About This System")
+elif page == "About":
+    st.markdown("## About This System")
     st.markdown("""
     ### Plant Disease Detection System for Sustainable Agriculture
 
@@ -368,9 +368,9 @@ elif page == "ℹ️ About":
     | Export | CSV → Tableau |
 
     **Future Enhancements:**
-    - 📱 Mobile app (React Native / Flutter)
-    - 🌐 REST API deployment (FastAPI)
-    - 🔄 Real-time camera detection
-    - 🌡️ IoT sensor integration (soil, weather)
-    - 🗺️ GPS-based regional disease heatmaps
+    - Mobile app (React Native / Flutter)
+    - REST API deployment (FastAPI)
+    - Real-time camera detection
+    - IoT sensor integration (soil, weather)
+    - GPS-based regional disease heatmaps
     """)
